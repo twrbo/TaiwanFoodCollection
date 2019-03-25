@@ -1,0 +1,202 @@
+#all {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#header {
+    background-image: url("/img/LOGO.jpg");
+    height: 250px;
+    text-align: center;
+    line-height: 80px;
+    opacity: 0.9;
+}
+
+#left {
+    background-color: white;
+    width: 300px;
+    height: 800px;
+    float: left;
+    
+}
+
+#right {
+    background-color: white;
+    width: 300px;
+    height: 800px;
+    float: right;
+}
+
+#mid {
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 800px;
+    background-color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#footer {
+    clear: both;
+    background-image:url("/img/footer.JPG");
+    height: 160px;
+    opacity:0.9;
+}
+
+
+body {
+    background-image: url("/img/FOOD1.jpg");
+}
+
+#imgL {
+    font-size: 25px;
+    color: gray;
+    font-family: Microsoft JhengHei;
+    text-decoration: none;
+}
+
+#imgL2 {
+    font-size: 25px;
+    color: gray;
+    font-family: Microsoft JhengHei;
+    text-decoration: none;
+}
+
+#imgR {
+    font-size: 25px;
+    color: gray;
+    font-family: Microsoft JhengHei;
+    text-decoration: none;
+}
+
+#imgR2 {
+    font-size: 25px;
+    color: gray;
+    font-family: Microsoft JhengHei;
+    text-decoration: none;
+}
+
+#view {
+    width: 300px;
+    height: 300px;
+}
+
+
+#word{
+    padding-left:570px;
+    padding-top:10px;
+    float:right;
+}
+#SLG{
+    padding-top:40px;
+    width:240px;
+    height:120px;
+    float:left;
+}
+
+#mail{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+    margin-left:850px;
+    margin-top:60px;
+    padding-bottom: 10px;
+    float:right;
+}
+#contact{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+     margin-left:858px;
+}
+.menubar {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    font-family: Microsoft JhengHei;
+}
+
+.menubar ul {
+    list-style: none;
+    background: gray;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar li {
+    float: left;
+    padding: 0px;
+}
+
+.menubar li a {
+    background: gray;
+    color: white;
+    display: block;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0px 30px;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menubar li a:hover,.menubar ul li:hover a {
+    background: red;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menubar li ul {
+    display: none;
+    background: darkgrary;
+    height: auto;
+    padding: 0px;
+    margin: 0px 30px;
+    border: 0px 30px;
+    position: absolute;
+    width: 120px;
+    z-index: 200;
+}
+
+.menubar li:hover ul {
+    display: block;
+}
+
+.menubar li li {
+    background: darkgray;
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+}
+
+.menubar li:hover li a {
+    background: none;
+}
+
+.menubar li ul a {
+    display: block;
+    height: 40px;
+    font-size: 20px;
+    font-style: normal;
+    margin: 0px;
+    padding-left: 25px;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+}
+
+.menubar li ul a:hover,.menubar li ul li:hover a {
+    background-color:firebrick;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.menubar p {
+    clear: both;
+}
